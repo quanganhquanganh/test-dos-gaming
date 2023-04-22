@@ -66,3 +66,10 @@ keen:
         --build-arg GAME_URL=https://image.dosgamesarchive.com/games/keen-shr.zip \
         --build-arg GAME_ARGS=\"KEEN.BAT\" \
         +play
+
+fallout:
+    BUILD \
+        --build-arg GAME_TAG=fallout \
+        --build-arg GAME_URL=https://archive.org/download/msdos_Fallout_1997/Fallout_1997.zip \
+        --build-arg GAME_ARGS=\"FALLOUT.EXE\" \
+        +play
